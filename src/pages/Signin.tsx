@@ -3,21 +3,23 @@
 
 const Signin = () => {
     return (
-        
+
+        <div className="bg-gray-300">
+
 
             <div className='container mx-auto py-40 md:py-60 max-w-[1300px]'>
                 <div className='flex justify-center items-center'>
-                {/* <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row  xl:flex-row  justify-center md:items-center md:justify-between lg:justify-between xl:justify-between'> */}
+                    {/* <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row  xl:flex-row  justify-center md:items-center md:justify-between lg:justify-between xl:justify-between'> */}
 
 
-{/* 
+                    {/* 
                     <div className='flex justify-center '>
                         <img src={signin} alt='phone' className='w-[40rem] md:w-[40rem] ' />
 
                     </div> */}
 
 
-                    <div className='bg-gray-200  shadow-lg shadow-transparent w-full md:w-[500px] h-[400px] rounded-lg pt-7 '>
+                    <div className='bg-gray-300  shadow-lg shadow-transparent w-full md:w-[500px] h-[400px] rounded-lg pt-7 '>
                         <div className='text-red-600 font-bold text-3xl px-16'>Sign In</div>
                         <form className='flex flex-col justify-items-center px-10'>
                             <input type='email' placeholder='Email' autoComplete='email' className='py-4 px-2 m-5 rounded-md'></input>
@@ -35,7 +37,8 @@ const Signin = () => {
                 </div>
 
             </div>
-            )
+        </div>
+    )
 }
 
-            export default Signin
+export default Signin
