@@ -13,7 +13,7 @@ const Footer = () => {
 
                     </div> */}
 
-                    <div className='flex flex-col space-y-3 w-[150px]'>
+                    <div className='flex flex-col space-y-3 w-[120px]'>
                         <div><p className=' font-bold text-black'>Services</p></div>
                         <div><p className=' text-gray-500'>Redfin account</p></div>
                         <div><p className=' text-gray-500'>Payments</p></div>
@@ -23,7 +23,7 @@ const Footer = () => {
                         <div><p className=' text-gray-500'>Credit report</p></div>
                     </div>
 
-                    <div className='flex flex-col space-y-3 w-[150px]'>
+                    <div className='flex flex-col space-y-3 w-[120px]'>
                         <div><p className=' font-bold text-black'>Learn more</p></div>
                         <div><p className=' text-gray-500'>Get fast loans</p></div>
                         <div><p className=' text-gray-500'>personal loans</p></div>
@@ -33,7 +33,7 @@ const Footer = () => {
                         
                     </div>
 
-                    <div className='flex flex-col space-y-3 w-[150px]'>
+                    <div className='flex flex-col space-y-3 w-[120px]'>
                         <div><p className=' font-bold text-black'>Company</p></div>
                         <div><p className=' text-gray-500'>Media</p></div>
                         <div><p className=' text-gray-500'>About us</p></div>
@@ -42,7 +42,7 @@ const Footer = () => {
                         <div><p className=' text-gray-500'>Customers</p></div>
                     </div>
 
-                    <div className='flex flex-col space-y-3 w-[150px]'>
+                    <div className='flex flex-col space-y-3 w-[120px]'>
                         <div><p className=' font-bold text-black'>Help</p></div>
                         <div><p className=' text-gray-500'>FAQ</p></div>
                         <div><p className=' text-gray-500'>Contact</p></div>
@@ -51,7 +51,7 @@ const Footer = () => {
              
                     </div>
 
-                    <div className='flex flex-col space-y-3 w-[150px]'>
+                    <div className='flex flex-col space-y-3 w-[120px]'>
                         <div><p className=' font-bold text-black'>Legal</p></div>
                         <div><p className=' text-gray-500'>Privacy Policy</p></div>
                         <div><p className=' text-gray-500'>Terms & Conditions</p></div>
@@ -59,7 +59,7 @@ const Footer = () => {
                     </div>
 
                     <div className='flex flex-col '>
-                        <div className="w-[150px]">
+                        <div className="w-[120px]">
                         <div className="font-bold text-2xl">red<span className="text-red-600">Fin</span></div>
                         </div>
 
