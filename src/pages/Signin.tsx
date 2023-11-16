@@ -6,14 +6,15 @@ const Signin = () => {
         
 
             <div className='container mx-auto py-40 md:py-60 max-w-[1300px]'>
-                <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row  xl:flex-row  justify-center md:items-center md:justify-between lg:justify-between xl:justify-between'>
+                <div className='flex justify-center items-center'>
+                {/* <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row  xl:flex-row  justify-center md:items-center md:justify-between lg:justify-between xl:justify-between'> */}
 
 
-
+{/* 
                     <div className='flex justify-center '>
                         <img src={signin} alt='phone' className='w-[40rem] md:w-[40rem] ' />
 
-                    </div>
+                    </div> */}
 
 
                     <div className='bg-gray-200  shadow-lg shadow-transparent w-full md:w-[500px] h-[400px] rounded-lg pt-7 '>

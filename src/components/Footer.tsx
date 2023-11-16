@@ -2,9 +2,9 @@
 
 const Footer = () => {
     return (
-        <div className='h-[100%] bg-gray-100'>
-            <div className='container mx-auto py-24'>
-                <div className='flex flex-wrap gap-20 justify-center'>
+        <div className='h-[200px] bg-gray-100'>
+            <div className='container mx-auto py-10'>
+                <div className='flex flex-col items-center justify-center'>
                     {/* <div className='flex flex-col '>
                         <div className="w-[150px]">
                         <div className="font-bold text-2xl">red<span className="text-red-600">Fin</span></div>
@@ -13,7 +13,7 @@ const Footer = () => {
 
                     </div> */}
 
-                    <div className='flex flex-col space-y-3 w-[120px]'>
+                    {/* <div className='flex flex-col space-y-3 w-[120px]'>
                         <div><p className=' font-bold text-black'>Services</p></div>
                         <div><p className=' text-gray-500'>Redfin account</p></div>
                         <div><p className=' text-gray-500'>Payments</p></div>
@@ -56,11 +56,17 @@ const Footer = () => {
                         <div><p className=' text-gray-500'>Privacy Policy</p></div>
                         <div><p className=' text-gray-500'>Terms & Conditions</p></div>
                         
+                    </div> */}
+
+                    <div>
+                        <h1 className="px-5 md:px-0 text-center">
+                        Copyright ©2023 Redfin Company LLC All rights reserved.
+                        </h1>
                     </div>
 
-                    <div className='flex flex-col '>
+                    <div className='flex flex-col pt-3 '>
                         <div className="w-[120px]">
-                        <div className="font-bold text-2xl">red<span className="text-red-600">Fin</span></div>
+                        <div className="font-bold text-2xl text-center">red<span className="text-red-600">Fin</span></div>
                         </div>
 
 
