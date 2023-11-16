@@ -7,10 +7,10 @@ export const Navbar = () => {
     return (
         
         <div className=''>
-            <nav className='flex  justify-between shadow-sm px-7 md:px-32 items-center fixed z-10  h-[100px] bg-white w-full  mx-auto '>
+            <nav className='flex  justify-between shadow-sm px-7 md:px-60 items-center fixed z-10  h-[100px] bg-white w-full  mx-auto '>
                 <div className='flex justify-start items-center'>
                     <Link to='/'>
-                        <div className="font-bold text-2xl">red<span className="text-red-600">Fin</span></div>
+                        <div className="font-bold text-xl md:text-3xl">red<span className="text-red-600">Fin</span></div>
                     </Link>
                 </div>
 
@@ -18,12 +18,8 @@ export const Navbar = () => {
 
 
                 <div className='hidden md:flex justify-start space-x-10  items-center  '>
-                    <div><h1 className='text-gray-800 hover:scale-105 duration-300 cursor-pointer '>Services</h1></div>
-                    <div><h1 className='text-gray-800 hover:scale-105 duration-300 cursor-pointer '>About us</h1></div>
-                    <div><h1 className='text-gray-800 hover:scale-105 duration-300 cursor-pointer '>FAQ</h1></div>
-                    <div><h1 className='text-gray-800 hover:scale-105 duration-300 cursor-pointer '>Contact us</h1></div>
-                    <Link to='signup'>
-                        <button className='w-[100px] h-[50px] rounded-md bg-red-600 text-white text-xl font-semibold'>Sign up</button>
+                    <Link to='Signin'>
+                        <button className='w-[200px] h-[50px] rounded-md bg-red-600 text-white text-xl font-semibold'>Sign In</button>
                     </Link>
 
 
@@ -35,8 +31,8 @@ export const Navbar = () => {
                 {nav && (
                     <div className={`${!nav ? 'hidden' : 'flex'}  flex-col items-center justify-center bg-white absolute top-0 left-0 w-full h-screen`}>
 
-                        <Link to='signup' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign up</Link>
-                        <Link to='signin' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign in</Link>
+                        <Link to='Signup' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign up</Link>
+                        <Link to='Signin' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign in</Link>
                     </div>
                 )}
 
