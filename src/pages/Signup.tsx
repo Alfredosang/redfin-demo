@@ -1,4 +1,4 @@
-import signup from '../assets/Signup.png'
+// import signup from '../assets/Signup.png'
 import { Link } from 'react-router-dom';
 
 const Signup = () => {
