@@ -20,13 +20,13 @@ const Signup = () => {
                         </form>
 
 
-                        <div className='text-white px-16'>
-                            <p className='text-black text-center'>Do you have an account ?
-                                <Link to='Signin'>
-                                    <button className='text-red-600 font-bold hover:text-black cursor-pointer'> Sign in here</button>
-                                </Link>
-                            </p>
-                        </div>
+                        <Link to='Signin'>
+                            <div className='text-white px-16'>
+                                <p className='text-black text-center'>Do you have an account ? 
+                                <button className='text-red-600 font-bold hover:text-black cursor-pointer'> Sign in here</button>
+                                </p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
 

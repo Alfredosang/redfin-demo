@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage'
 import { Routes, Route} from 'react-router-dom'
 import Signup from './pages/Signup'
 import Signin from './pages/Signin'
+import Transactionpage from './pages/Transactionpage'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path='Signup' element={<Signup />} />
           <Route path='Signin' element={<Signin/>} />
           <Route path='Signup/Signin' element={<Signin/>} />
+          <Route path='Transactionpage' element={<Transactionpage/>} />
         </Routes>
         
 
