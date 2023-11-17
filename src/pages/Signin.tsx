@@ -15,9 +15,11 @@ const Signin = () => {
                         <form className='flex flex-col justify-items-center px-10'>
                             <input type='email' placeholder='Email' autoComplete='email' className='py-4 px-2 m-5 rounded-md'></input>
                             <input type='password' placeholder='Password' autoComplete='password' className='py-4 px-2 m-5 rounded-md'></input>
-                            <button className='bg-red-600 text-white py-5 m-5 rounded-md hover:bg-white hover:text-black font-bold'>Submit</button>
 
+                            <button className='bg-red-600 text-white py-5 m-5 rounded-md hover:bg-white hover:text-black font-bold'>Submit</button>
                         </form>
+
+
 
                     </div>
                 </div>

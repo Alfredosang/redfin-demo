@@ -31,6 +31,7 @@ function App() {
           <Route path='Signin' element={<Signin/>} />
           <Route path='Signup/Signin' element={<Signin/>} />
           <Route path='Transactionpage' element={<Transactionpage/>} />
+          <Route path='Signin/Transactionpage' element={<Transactionpage/>} />
         </Routes>
         
 
