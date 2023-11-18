@@ -9,7 +9,10 @@ import Signin from './pages/Signin'
 import Transactionpage from './pages/Transactionpage'
 
 
+
 function App() {
+
+
   
 
   return (
@@ -32,6 +35,7 @@ function App() {
           <Route path='Signup/Signin' element={<Signin/>} />
           <Route path='Transactionpage' element={<Transactionpage/>} />
           <Route path='Signin/Transactionpage' element={<Transactionpage/>} />
+          <Route path='Signup/Signin/Transactionpage' element={<Transactionpage/>} />
         </Routes>
         
 

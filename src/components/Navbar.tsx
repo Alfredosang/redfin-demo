@@ -18,7 +18,7 @@ export const Navbar = () => {
 
 
                 <div className='hidden md:flex justify-start space-x-10  items-center  '>
-                    <Link to='Transactionpage'>
+                    <Link to='Signin'>
                         <button className='w-[200px] h-[50px] rounded-md bg-red-600 text-white text-xl font-semibold'>Sign In</button>
                     </Link>
 
@@ -32,7 +32,7 @@ export const Navbar = () => {
                     <div className={`${!nav ? 'hidden' : 'flex'}  flex-col items-center justify-center bg-white absolute top-0 left-0 w-full h-screen`}>
 
                         <Link to='Signup' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign up</Link>
-                        <Link to='Transactionpage' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign in</Link>
+                        <Link to='Signin' onClick={() => setNav(!nav)} className='bg-red-600 h-[70px]  w-[340px] rounded-md flex justify-center items-center text-white text-2xl m-5 cursor-pointer'>Sign in</Link>
                     </div>
                 )}
 
